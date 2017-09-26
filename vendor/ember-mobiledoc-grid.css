@@ -1,0 +1,14 @@
+.__mobiledoc-editor div,
+.__mobiledoc-editor iframe {
+  width: 100%;
+}
+
+.row {
+  border: 1px solid forestgreen;
+  min-height: 10px;
+  padding: 0.2em;
+}
+
+.row.editor {
+  border-color: indianred;
+}

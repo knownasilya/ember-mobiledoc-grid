@@ -1,0 +1,1 @@
+export { default } from 'ember-mobiledoc-grid/components/mobiledoc-grid-toolbar/component';

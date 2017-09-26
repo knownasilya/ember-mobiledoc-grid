@@ -1,0 +1,1 @@
+export { default } from 'ember-mobiledoc-grid/components/grid-cards-row/component';
