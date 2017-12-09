@@ -1,6 +1,10 @@
-<section>
-  <button onclick={{action editCard}} type='button'>Edit</button>
-</section>
+{{#if showActions}}
+  <ul class='actions'>
+    <li>
+      <button onclick={{action editCard}} type='button'>Edit</button>
+    </li>
+  </ul>
+{{/if}}
 
 <div class='row'>
   <div class='col-xs-6 col'>

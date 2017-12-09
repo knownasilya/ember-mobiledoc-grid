@@ -1,14 +1,17 @@
-<ul class='actions'>
-  <li>
-    <button onclick={{action cancelCard}} type='button'>Cancel</button>
-  </li>
-  <li>
-    <button onclick={{action saveCard}} type='button'>Save</button>
-  </li>
-  <li>
-    <button onclick={{action removeCard}} type='button'>Remove</button>
-  </li>
-</ul>
+
+{{#if showActions}}
+  <ul class='actions'>
+    <li>
+      <button onclick={{action cancelCard}} type='button'>Cancel</button>
+    </li>
+    <li>
+      <button onclick={{action saveCard}} type='button'>Save</button>
+    </li>
+    <li>
+      <button onclick={{action removeCard}} type='button'>Remove</button>
+    </li>
+  </ul>
+{{/if}}
 
 {{yield}}
 
