@@ -1,4 +1,15 @@
-.__mobiledoc-editor div,
+.__mobiledoc-editor {
+  padding: 1em 0;
+  border: 1px solid royalblue;
+}
+
+.__mobiledoc-editor div, .__mobiledoc-editor iframe {
+  max-width: initial !important;
+}
+
+.__mobiledoc-editor > div,
+.__mobiledoc-card,
+.__mobiledoc-card > div,
 .__mobiledoc-editor iframe {
   width: 100%;
 }
@@ -11,4 +22,19 @@
 
 .row.editor {
   border-color: indianred;
+}
+
+.col {
+  border: 1px solid orchid;
+  min-height: 10px;
+  padding: 0.2em;
+}
+
+ul.actions {
+  margin: 0;
+  padding: 0;
+}
+
+ul.actions li {
+  display: inline-block;
 }

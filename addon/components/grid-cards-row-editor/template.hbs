@@ -1,4 +1,22 @@
-<section>
-  <button onclick={{action saveCard}} type='button'>Save</button>
-</section>
+<ul class='actions'>
+  <li>
+    <button onclick={{action cancelCard}} type='button'>Cancel</button>
+  </li>
+  <li>
+    <button onclick={{action saveCard}} type='button'>Save</button>
+  </li>
+  <li>
+    <button onclick={{action removeCard}} type='button'>Remove</button>
+  </li>
+</ul>
+
 {{yield}}
+
+<div class='row'>
+  <div class='col-xs-6 col'>
+    Col 1
+  </div>
+  <div class='col-xs-6 col'>
+    Col 2
+  </div>
+</div>

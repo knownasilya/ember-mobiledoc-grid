@@ -18,7 +18,7 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-mobiledoc-editor": "^0.5.12",
+    "ember-mobiledoc-editor": "^0.5.13",
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-babel": "^6.3.0"
   },
